@@ -1,20 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-
-    <input type="number" id="count">
-    <div class="buttons">
-        <input id="kv" type="button" value="Квадрат" onclick="createFigures(kv)">
-        <input id="tr"  type="button" value="Треугольник" onclick="createFigures(tr)">
-        <input id="kr"  type="button" value="Круг" onclick="createFigures(kr)">
+    <title>Frontend Task№7</title>
+    <meta charset='UTF-8' />
+    <link rel='stylesheet' type='text/css' href='index.css' />
+ </head>
+ <body>
+    <input type='text'>
+    <div class="button">
+        <input type='button' value='Квадрат' onclick='square()'>
+        <input type='button' value='Треугольник' onclick='triangle()'>
+        <input type='button' value='Круг' onclick='circle()'>
     </div>
-    <canvas class="canvas" id="canvas" width="1280" height="720"></canvas>
-
-    <script type="text/javascript" src="index.js"></script>
+<script src = "index.js"></script>
 </body>
 </html>
